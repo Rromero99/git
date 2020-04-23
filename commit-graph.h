@@ -40,8 +40,6 @@ struct tree *get_commit_tree_in_graph(struct repository *r,
 				      const struct commit *c);
 
 struct commit_graph {
-	int graph_fd;
-
 	const unsigned char *data;
 	size_t data_len;
 
